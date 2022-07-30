@@ -29,8 +29,8 @@ If you use browser
 -----------
 Go to the browser and copy next line to make request:
 * GET request /rate
- * [localhost](http://localhost:3000/rate)
+  * [localhost](http://localhost:3000/rate)
 * POST request /subscribe with one param: email yiu want to add
- * [localhost](http://localhost:3000/subscribe?email=`email you want to add`)
+  * [localhost](http://localhost:3000/subscribe?email=`email you want to add`)
 * POST request /sendEmails 
- * [localhost](http://localhost:3000/sendEmails)
+  * [localhost](http://localhost:3000/sendEmails)
