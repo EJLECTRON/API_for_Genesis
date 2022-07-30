@@ -8,7 +8,7 @@ function sendRequest(method, url) {
   return fetch(url).then((response) => {
     return response.json();
   }).then((response) => {
-    const curr = response['data']['last'];
+    const curr = response['data'][0]['price']['uah'];
 
     var file = fs.readFileSync("../json/data.json");
 
