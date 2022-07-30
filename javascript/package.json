@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "forparsing",
+  "version": "1.0.0",
+  "description": "JustForParsing",
+  "main": "parsing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "chalk": "^5.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "googleapis": "^105.0.0",
+    "node-fetch": "^3.2.9",
+    "nodemailer": "^6.7.7",
+    "puppeteer": "^15.5.0",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
