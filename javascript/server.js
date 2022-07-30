@@ -8,8 +8,6 @@ import { sendEmail } from "./emailsender.js"
 
 import bp from 'body-parser';
 
-app.set('view engine', 'ejs');
-
 app.use(bp.json());
 app.use(bp.urlencoded({ extended: true }));
 
