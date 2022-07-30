@@ -23,8 +23,8 @@ async function sendEmail(email) {
     const mailOptions = {
       from: 'Me <justforsendemail3@gmail.com>',
       to: email,
-      subject: 'Хай',
-      text: `Oт короче курс бітка: ${responsedata['currency']}`,
+      subject: 'Поточний курс біткоіна',
+      text: `На зараз курс біткоіна становить: ${responsedata['currency']} гривень`,
     };
 
     const result = await transport.sendMail(mailOptions);
