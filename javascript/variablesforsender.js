@@ -10,7 +10,7 @@ import fs from 'fs';
 
 import express from "express";
 
-const URL = 'https://api.bitaps.com/market/v1/ticker/btcusd';
+const URL = 'https://minfin.com.ua/api/currency/crypto/list/?filter[code]=btc';
 const CLIENT_ID = '598396378254-cjd4ui8kta47alnh7gbgschghcvl0j6q.apps.googleusercontent.com';
 const CLIENT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
